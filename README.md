@@ -15,6 +15,11 @@ npm run serve
 npm run build
 ```
 
+### Builds onto bucket
+```
+yarn deploy
+```
+
 ### Lints and fixes files
 ```
 npm run lint
