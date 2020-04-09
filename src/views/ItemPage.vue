@@ -1,9 +1,21 @@
 <template lang="html">
 
   <div class="">
+
+    <div  style="background-color: red; padding: 30px; margin: 30px; width: 10%; left: 45%; position:relative;" >
+      <a name="button" href="https://bbc.co.uk/news" target="_blank" rel="noopener" >BBC NEWS - new tab</a>
+    </div>
+    <div  style="background-color: lightblue; padding: 30px; margin: 30px; width: 10%; left: 45%; position:relative; top: 10%;" >
+      <a name="button" href="https://bbc.co.uk/news"  rel="noopener" >BBC NEWS</a>
+
+    </div>
+    <br>
+
+
     <div class="" v-if="item">
 
-      <button type="button" name="button" href="www.bbc.co.uk/news" style="background-color: red">BBC NEWS</button>
+
+
 
       <img src="https://image.shutterstock.com/image-vector/cartoon-apple-260nw-651312034.jpg" alt="" style="width: 10%;" class="apple">
 
