@@ -2,25 +2,29 @@
 
   <div class="">
 
-    <div  style="background-color: red; padding: 30px; margin: 30px; width: 10%; left: 45%; position:relative;" >
-      <a name="button" href="https://bbc.co.uk/news" target="_blank" rel="noopener" >BBC NEWS - new tab</a>
+    <!-- <div class="left">
+      <div  style="background-color: red; padding: 30px; margin: 30px; width: 10%; left: 45%; position:relative;" >
+        <a name="button" href="https://bbc.co.uk/news" target="_blank" rel="noopener" >BBC NEWS - new tab</a>
+      </div>
+      <div  idstyle="background-color: lightblue; padding: 30px; margin: 30px; width: 10%; left: 45%; position:relative; top: 10%;" >
+        <a name="button" href="https://bbc.co.uk/news"  rel="noopener" >BBC NEWS</a>
+      </div>
+      <br>
     </div>
-    <div  style="background-color: lightblue; padding: 30px; margin: 30px; width: 10%; left: 45%; position:relative; top: 10%;" >
-      <a name="button" href="https://bbc.co.uk/news"  rel="noopener" >BBC NEWS</a>
 
+    <div class="right">
+      <div class="" style="border: solid yellow 1px;">
+        <img style="width: 200px" src="https://techcrunch.com/wp-content/uploads/2011/09/facebook_like_button_big.jpeg?w=490" alt="">
+      </div>
     </div>
-    <br>
-
+ -->
 
     <div class="" v-if="item">
 
+      <!-- <img src="https://image.shutterstock.com/image-vector/cartoon-apple-260nw-651312034.jpg" alt="" style="width: 10%;" class="apple"> -->
 
 
-
-      <img src="https://image.shutterstock.com/image-vector/cartoon-apple-260nw-651312034.jpg" alt="" style="width: 10%;" class="apple">
-
-
-
+<!--
       <div class="left">
 
 
@@ -52,7 +56,7 @@
               <button v-on:click="clickedCredits()">clickedCredits()></button>
 
               <br>
-      </div>
+      </div> -->
 
 
 
@@ -63,6 +67,10 @@
       <p>category: {{item.category}}</p>
       <p>description: {{item.description}}</p>
       <img :src="item.image" alt="" style="width: 30%;">
+
+      <div class="" style=" margin-top: 20px;" id="likeFishID">
+        <img style="width: 100px" src="https://techcrunch.com/wp-content/uploads/2011/09/facebook_like_button_big.jpeg?w=490" alt="">
+      </div>
 
 
 
